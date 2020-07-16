@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 	console.log(location);
 
-	if (location == '/sajtovi/trips2019/' || location.indexOf("index.html") != -1 || location == "/") {
+	if (location == '/sajtovi/trips2019/' || location.indexOf("index.html") != -1 || location == "/trips/") {
 		ponuda();
 		osoblje();
 		citati();
