@@ -10,13 +10,12 @@ $(document).ready(function () {
 	console.log(location);
 
 	if (location == '/sajtovi/trips2019/' || location.indexOf("index") != -1 || location == "/trips/") {
-		console.log("ovo sto treba na indexu svuda se ucitava");
 		
-// 		ponuda();
-// 		osoblje();
-// 		citati();
-// 		citatiSlajder()
-// 		$(window).fadeThis();
+		ponuda();
+		osoblje();
+		citati();
+		citatiSlajder()
+		$(window).fadeThis();
 	}
 
 	if (location.indexOf('about') != -1) {
@@ -29,7 +28,7 @@ $(document).ready(function () {
 		citatiSlajder();
 	}
 
-	if (location.indexOf('trips') != -1) {
+	if (location.indexOf('trips.html') != -1) {
 		ponuda();
 		filterPaketa();
 		$(window).fadeThis();
