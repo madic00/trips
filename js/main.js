@@ -12,11 +12,11 @@ $(document).ready(function () {
 	if (location == '/sajtovi/trips2019/' || location.indexOf("index") != -1 || location == "/trips/") {
 		console.log("ovo sto treba na indexu svuda se ucitava");
 		
-		ponuda();
-		osoblje();
-		citati();
-		citatiSlajder()
-		$(window).fadeThis();
+// 		ponuda();
+// 		osoblje();
+// 		citati();
+// 		citatiSlajder()
+// 		$(window).fadeThis();
 	}
 
 	if (location.indexOf('about') != -1) {
