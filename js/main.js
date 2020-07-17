@@ -10,6 +10,8 @@ $(document).ready(function () {
 	console.log(location);
 
 	if (location == '/sajtovi/trips2019/' || location.indexOf("index") != -1 || location == "/trips/") {
+		console.log("ovo sto treba na indexu svuda se ucitava");
+		
 		ponuda();
 		osoblje();
 		citati();
