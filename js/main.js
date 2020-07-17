@@ -117,12 +117,12 @@ function navResponsive() {
 }
 
 let nizPaketa = [
-	["$200.00", "Mossy Forest", "adventure"],
-	["$390.00", "Zlatibor", "adventure"],
-	["$180.00", "Mount Fuji", "adventure"],
-	["$600.00", "Bali", "beach"],
-	["$330.00", "Hawaii", "beach"],
-	["$450", "Mount Everest", "adventure"]
+	["$200.00", "Mossy Forest", "adventure", "mossy forest"],
+	["$390.00", "Zlatibor", "adventure", "zlatibor"],
+	["$180.00", "Mount Fuji", "adventure", "mount fuji"],
+	["$600.00", "Bali", "beach", "bali"],
+	["$330.00", "Hawaii", "beach", "hawaii"],
+	["$450", "Mount Everest", "adventure", "mount everest"]
 ];
 
 let nizPaketaDesc = [
@@ -180,13 +180,13 @@ function prikaziDet() {
 		<div class="modal-body">
 			<div class="row">
 				<div class="col-lg-4">
-					<img class="img-fluid" src="images/${nizPaketa[index][1]}1.jpg" alt="Location Detail ${index}" />
+					<img class="img-fluid" src="images/${nizPaketa[index][3]}1.jpg" alt="Location Detail ${index}" />
 				</div>
 				<div class="col-lg-4">
-					<img class="img-fluid" src="images/${nizPaketa[index][1]}2.jpg" alt="Location Detail ${index}" />
+					<img class="img-fluid" src="images/${nizPaketa[index][3]}2.jpg" alt="Location Detail ${index}" />
 				</div>
 				<div class="col-lg-4">
-					<img class="img-fluid" src="images/${nizPaketa[index][1]}3.jpg" alt="Location Detail ${index}" />
+					<img class="img-fluid" src="images/${nizPaketa[index][3]}3.jpg" alt="Location Detail ${index}" />
 				</div>
 			</div>
 
